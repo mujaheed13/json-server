@@ -1,0 +1,23 @@
+### link/url to get products data =>
+GET http://localhost:3000/api/products
+
+### to update or edit products {PATCH} => http://localhost:3000/api/products/{id} 
+### ex: http://localhost:3000/api/products/1
+
+
+POST http://localhost:3000/api/users
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "firstname": "ad",
+  "lastname": "min",
+  "email": "admin@furniturestock.com",
+  "phone": 123456789,
+  "password": "admin",
+  "id": 1
+}
+
+###
+
+
